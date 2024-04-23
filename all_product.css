@@ -1,0 +1,127 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   }
+   
+   html,body {
+   
+       display: grid;
+   }
+   
+   h1 {
+   
+       
+       color: white;
+       padding: 15px;
+       font-family: cursive;
+       position: relative;
+       font-size: 30px;
+       margin-top: 7px;
+   }
+   
+   .user-panel {
+   
+       background-color: rgb(243, 180, 97);
+   }
+   
+   .my-link-style {
+   
+       font-size: 20px;
+       font-weight: 500;
+       margin-left: 10px;
+       margin-right: 10px;
+       text-decoration: none;
+   }
+   
+   .my-link-style:hover {
+      text-decoration: none;
+      color: rgb(7, 176, 176);
+   
+     
+   }
+   
+   .search {
+   
+      margin-top: 27px;
+      padding: 7px;
+      width: 400px;
+      border-radius: 5px;
+      border: none;
+   }
+   
+   .search:focus {
+   
+       outline: none;
+   }
+  
+   
+   button {
+    
+       padding:7px 10px 7px 10px;
+       background-color: white;
+       border: none;
+       border-radius: 5px;
+       
+     }
+   
+     button:hover {
+    
+       background-color: rgb(7, 176, 176);
+       transition: 0.3s;
+     }
+   
+     p {
+   
+       font-size: 18px;
+       
+       font-weight: 600;
+
+     }
+   
+     .product-link {
+   
+       text-decoration: none;
+     }
+
+     .card-design{
+   
+        
+        text-align: center;
+        
+        
+      }
+
+      .order {
+
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(3, 127, 127);
+        font-size: 15px;
+       
+        cursor: pointer;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        text-decoration: none;
+      
+      }
+    
+      .order:hover {
+       
+        background-color: rgb(7, 176, 176);
+      }
+   
+     
+   
+     /* Contact */
+   
+    
+   
+   
+   /* user panel */
+   
+   

@@ -1,0 +1,202 @@
+* {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body {
+
+    display: grid;
+}
+
+
+.image {
+
+    margin-top: 10%;
+    margin-left: -5%;
+
+}
+
+.image img {
+
+   max-width: 100%;
+   height: auto;
+    
+}
+
+
+
+
+
+@media only screen  and (max-width:500px) {
+
+    h2 {
+
+        margin-left: 7%;
+    }
+
+    img {
+
+        margin-left: -1%;
+    }
+
+    .a{
+
+        margin-left: 10%;
+    }
+    
+}
+
+.contact-card {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    width: 400px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 13%;
+    margin-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    
+   
+}
+
+.contact-card2 {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 7%;
+    margin-left: 21%;
+    border-radius: 5px;
+    
+   
+}
+
+.click:focus {
+
+    outline: none;
+
+}
+
+.name {
+
+    margin-top: 8%;
+
+}
+
+.number {
+
+    margin-top: 3%;
+
+}
+
+.email {
+
+    margin-top: 3%;
+}
+
+.msg {
+
+    margin-top: 3%;
+}
+
+.feedback {
+
+    padding-left: 32px;
+    padding-right:32px;
+    text-align: justify;
+}
+
+input[type=text],input[type=email],input[type=number] {
+
+    width: 350px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(7, 176, 176);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+
+}
+
+textarea {
+   
+    padding: 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(7, 176, 176);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black; 
+}
+
+.send {
+   
+    border: none;
+    background-color: rgb(3, 127, 127);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.send:hover {
+
+    background-color: rgb(7, 176, 176);
+}
+
+
+
+.reset {
+   
+    border: none;
+    background-color: rgb(3, 127, 127);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    
+}
+
+.reset:hover {
+
+    background-color: rgb(7, 176, 176);
+}
+
+.send-rst {
+    margin-top: 5%;
+    margin-left: 37%;
+    margin-bottom: 5%;
+}
+
+i {
+
+    /* color: #00abf0; */
+    padding: 20px;
+}
+
+.color2 {
+
+color: rgb(213, 120, 120);
+
+
+}
+
+.color3 {
+
+    color: rgb(19, 232, 19);
+}
+
+
+/* user panel */
+

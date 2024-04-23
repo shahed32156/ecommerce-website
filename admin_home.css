@@ -1,0 +1,210 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   }
+   
+
+   
+   html,body {
+   
+       display: grid;
+   }
+   
+   h1 {
+   
+   
+       color: white;
+       padding: 15px;
+       font-family: cursive;
+       position: relative;
+       font-size: 30px;
+       margin-top: 7px;
+   }
+   
+   .user-panel {
+   
+       background-color: rgb(243, 180, 97);
+   }
+   
+   .my-link-style {
+   
+       font-size: 20px;
+       font-weight: 500;
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+   
+   .my-link-style:hover {
+   
+      color: rgb(7, 176, 176);
+   
+     
+   }
+   
+   .search {
+   
+      margin-top: 27px;
+      padding: 7px;
+      width: 400px;
+      border-radius: 5px;
+      border: none;
+   }
+   
+   .search:focus {
+   
+       outline: none;
+   }
+   .card {
+   
+       box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+       border-radius: 5px;
+       width: 450px;
+       
+       padding-top: 25px;
+       margin-top: 8%;
+       padding-bottom: 25px;    
+       margin-left: 5.5%;
+       text-align: center;
+   }
+   
+   button {
+    
+       padding:7px 10px 7px 10px;
+       background-color: white;
+       border: none;
+       border-radius: 5px;
+       
+     }
+   
+     button:hover {
+    
+       background-color: rgb(7, 176, 176);
+       transition: 0.3s;
+     }
+   
+     p {
+   
+       font-size: 25px;
+       color: orange;
+       font-weight: 600;
+     }
+   
+     .product-link {
+   
+       text-decoration: none;
+     }
+
+     
+
+     /*  */
+
+
+    .name {
+    
+        margin-top: 30px; 
+    
+    }
+    
+    .registrationPage {
+    
+        box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+        border-radius: 5px;
+        width: 500px;
+        padding-left: 7%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-top: 2%;
+        margin-left: 33%;
+        min-width: auto;
+        
+    }
+    .email {
+    
+        margin-top: 15px; 
+    
+    }
+
+    
+    
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .register-btn {
+        margin-top: 15px; 
+    }
+    
+    input[type=text],input[type=email],input[type=password],input[type=file] {
+    
+     border: none;
+     background-color: rgb(229, 226, 226);
+     height: 40px;
+     width: 300px;
+     border-radius: 0.25em;
+     padding-left: 5px;
+     
+    
+    }
+
+  
+    
+    input[type=submit] {
+    
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(3, 127, 127);
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        margin-left: 26%;
+        
+        
+      }
+    
+      input[type=submit]:hover {
+       
+        background-color: rgb(7, 176, 176);
+      }
+    
+     
+    
+    .file:focus {
+
+        outline: none;
+
+    }
+
+    .text:focus {
+
+        outline: none;
+
+    }
+
+   
+
+    .search {
+
+        margin-top: 27px;
+        padding: 7px;
+        width: 400px;
+        border-radius: 5px;
+        border: none;
+     }
+     
+     .search:focus {
+     
+         outline: none;
+         
+     }
+
+ 
