@@ -1,0 +1,219 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+
+.html, body {
+  
+    display: grid;
+    place-content: center;
+   
+    
+}
+
+
+.name {
+
+    margin-top: 30px; 
+
+}
+
+.registrationPage {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    border-radius: 5px;
+    width: 400px;
+    padding-left: 27%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 18%;
+    margin-left: -10%;
+    background-color: rgb(243, 180, 97);
+    
+}
+.email {
+
+    margin-top: 15px; 
+
+}
+
+.pass {
+
+    margin-top: 15px; 
+
+}
+
+.address {
+
+    margin-top: 15px; 
+
+}
+
+.phone {
+
+    margin-top: 15px; 
+
+}
+
+.login-msg {
+
+    margin-top: 10px; 
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.register-btn {
+    margin-top: 15px; 
+}
+
+input[type=text],input[type=email],input[type=password],input[type=number] {
+
+ border: none;
+ background-color: rgb(229, 226, 226);
+ height: 40px;
+ width: 300px;
+ border-radius: 0.25em;
+ padding-left: 5px;
+ 
+
+}
+
+input[type=submit] {
+
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: tomato;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-left: 26%;
+  
+  }
+
+  input[type=submit]:hover {
+   
+    background-color: rgb(7, 176, 176);
+  }
+
+  input {
+
+    outline: none;
+}
+
+  label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: #fff;
+}
+body.night{
+    background: #000;
+    color: #fff;
+}
+
+.number-input-container {
+    position: relative;
+    width: 200px;
+    margin: 20px;
+}
+
+/* Style for the number input */
+.number-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for the up and down buttons */
+.number-input-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.number-input-controls button {
+    padding: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.number-input-controls button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.div {
+
+    margin-left: 28.5%;
+}
+
+.div a {
+
+    font-size: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.div a:hover {
+
+ color: rgb(0, 166, 255);
+    
+}
+@media screen and (min-width:900px) {
+  .respon{
+    display: flex;
+  }
+  img{
+    height:50%;
+    width:auto;
+    padding-top: 3vh;
+    padding-right: 5%;
+  }
+
+  p{
+    max-width: 80%;
+    line-height: 30px;
+  }
+}
+

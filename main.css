@@ -1,0 +1,35 @@
+* {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+html,body {
+
+    display: grid;
+}
+
+
+
+@media only screen  and (max-width:500px) {
+
+    h2 {
+
+        margin-left: 7%;
+    }
+
+    img {
+
+        margin-left: -1%;
+    }
+
+    .a{
+
+        margin-left: 10%;
+    }
+    
+}

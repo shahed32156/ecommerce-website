@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="otp.css">
+
+</head>
+<body>
+ 
+<header>
+    <label  id="dark-change"></label>
+  </header>
+
+
+<form action="login_confirmed.php" method="POST"> 
+
+<div class='registrationPage'>
+
+<h1>Enter your OTP Code</h1>
+<p class="wrong-info" style="color:red; font-size:20px;margin-top:10px;border-radius:3px;text-align:center;width:305px;background:rgb(255, 237, 216)"><?php if(isset($_GET['wrongInfo'])){echo "Incorrect email or password";} ?></p>
+
+<div class='pass'>
+<input type='number' name="otp" placeholder='6 digit otp code' onclick="pageload()" required></input>
+</div>
+
+<div class='register-btn'>
+<input type='submit' value='Confirm'></input>
+</div>
+
+</div>
+
+</form> 
+<script src="index.js"></script>
+
+
+
+<img src="healthcare1.webp" alt="" height="300px" width="300px">
+
+</body>
+</html>
