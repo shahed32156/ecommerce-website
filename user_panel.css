@@ -1,0 +1,38 @@
+
+.card {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    border-radius: 5px;
+    width: 450px;
+    
+    padding-top: 25px;
+    margin-top: 8%;
+    padding-bottom: 25px;    
+    margin-left: 5.5%;
+    text-align: center;
+    
+}
+
+
+
+  p {
+
+    font-size: 25px;
+    color: orange;
+    font-weight: 600;
+  }
+
+  .product-link {
+
+    text-decoration: none;
+    box-shadow: 0 0.188em 1.550em orange;
+  }
+
+
+  /* Contact */
+
+ 
+
+
+/* user panel */
+
